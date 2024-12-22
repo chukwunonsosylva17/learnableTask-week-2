@@ -1,10 +1,10 @@
 # learnableTask-week-2
 
-#1 EXPLAIN VERSION CONTROL
+# 1. EXPLAIN VERSION CONTROL
 #Version Control:
 It is a system that tracks changes to the files or codes or projects over a time so that a specific version can be recalled later. Version control is a wise thing to use by the web designers, graphics designers, developers etc to keep every version of an image or layout or code. It allows you to revert selected files or entire project back to a previous state, compare changes over, see who last modified something that might be causing a problem, who introduced an issue and when and more. It enables multiple people to collaborate efficiently.
 
-#2 DIFFERENCE BETWEEN GIT AND GITHUB WITH THEIR EXPLANATIONS.
+# 2. DIFFERENCE BETWEEN GIT AND GITHUB WITH THEIR EXPLANATIONS.
 # i. USAGE:
 Git is use to control and manage changes made locally or across system by develpers. 
 
@@ -25,12 +25,12 @@ Git is a distributed version control system (DVSC) used to track changes in file
 
 GitHub is a cloud base platform that hosts git repositories  to ease collaboration.
 
-#3. LIST 3 GITHUB ALTERNATIVES.
+# 3. LIST 3 GITHUB ALTERNATIVES.
 i. Google Cloud Source Repositories.
 ii. Bitbucket.
 ii. AWS CodeCommit (Amazon web services).
 
-#4. EXPLAIN THE DIFFERENCE BETWEEN GIT FETCH AND GIT PULL.
+# 4. EXPLAIN THE DIFFERENCE BETWEEN GIT FETCH AND GIT PULL.
 They are both git command used for synchronization of local repository with a remote repository but they behave differently.
 
 # Git Fetch: 
@@ -39,7 +39,7 @@ this is a command that fetch all the changes on the server that you don't have y
 # Git Pull:
 this is a command that look up what server and branch your current branch is tracking, fetch from the server and then they try to automaticaly merge in that remote branch. It is a combination of git fetch and git merge when you want to update your current branch with the latest changes from remote repositories immidiately.
 
-#5. EXPLAIN IN SIMPLE TERMS GIT REBASE AND THE COMMAND FOR IT.
+# 5. EXPLAIN IN SIMPLE TERMS GIT REBASE AND THE COMMAND FOR IT.
 Git Rebase:
 this is a command that allows you to move or replay your changes from one branch to another, creating a clean history without unnecessary merge commits and this makes the project history easier to read and follow. 
 
@@ -59,7 +59,7 @@ git rebase --continue
 To abort or cancel rebase in any case use the  command line;
 git rebase --abort
 
-#6. EXPLAIN IN SIMPLE TERMS GIT CHERRY PICK AND THE COMMAND FOR IT.
+# 6. EXPLAIN IN SIMPLE TERMS GIT CHERRY PICK AND THE COMMAND FOR IT.
 Git Cherry Pick:
 This is command that allows you to take a specific commit from one branch and apply it to another branch. it is usefulin in fixing bugs or apply develop without bringing unrelated changes.
 
